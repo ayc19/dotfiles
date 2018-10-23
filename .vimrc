@@ -68,4 +68,3 @@ map g# <Plug>(incsearch-nohl-g#)
 :set cursorline
 :set ruler
 
-" test
