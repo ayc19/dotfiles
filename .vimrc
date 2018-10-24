@@ -3,6 +3,7 @@ call plug#begin()
 Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/nerdcommenter'
 Plug 'haya14busa/incsearch.vim'
+Plug 'kien/ctrlp.vim'
 
 call plug#end()
 
@@ -68,3 +69,6 @@ map g# <Plug>(incsearch-nohl-g#)
 :set cursorline
 :set ruler
 
+" Open CtrlP with ctrl-p lol
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
