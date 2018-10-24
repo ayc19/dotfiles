@@ -69,6 +69,10 @@ map g# <Plug>(incsearch-nohl-g#)
 :set cursorline
 :set ruler
 
-" Open CtrlP with ctrl-p lol
-let g:ctrlp_map = '<c-p>'
-let g:ctrlp_cmd = 'CtrlP'
+" autoclose stuff
+:inoremap ( ()<Esc>i
+:inoremap { {}<Esc>i
+:inoremap " ""<Esc>i
+:inoremap ' ''<Esc>i
+
+
