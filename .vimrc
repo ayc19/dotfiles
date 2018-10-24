@@ -75,4 +75,6 @@ map g# <Plug>(incsearch-nohl-g#)
 :inoremap " ""<Esc>i
 :inoremap ' ''<Esc>i
 
-
+" ctrl p
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
