@@ -4,6 +4,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/nerdcommenter'
 Plug 'haya14busa/incsearch.vim'
 Plug 'kien/ctrlp.vim'
+Plug 'jiangmiao/auto-pairs'
 
 call plug#end()
 
@@ -69,12 +70,7 @@ map g# <Plug>(incsearch-nohl-g#)
 :set cursorline
 :set ruler
 
-" autoclose stuff
-:inoremap ( ()<Esc>i
-:inoremap { {}<Esc>i
-:inoremap " ""<Esc>i
-:inoremap ' ''<Esc>i
-
 " ctrl p
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
+
